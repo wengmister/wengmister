@@ -1,4 +1,4 @@
-# 👋 Hi, this is Zhengyang Kris Weng 翁峥阳
+# 👋 Hi, this is Zhengyang Kris Weng
 
 - 🔭 I’m currently developing surgical robots at <a href="https://www.jnjmedtech.com/en-US/product-family/monarch" target="_blank" rel="noopener noreferrer">Johnson & Johnson MedTech</a>,
 - 🎓 and I studied Robotics at <a href="https://www.mccormick.northwestern.edu/robotics/" target="_blank" rel="noopener noreferrer">Northwestern University</a>.
