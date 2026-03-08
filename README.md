@@ -1,6 +1,6 @@
 # 👋 Hi, this is Zhengyang Kris Weng
 
-<img src="./metrics.isocalendar.svg" align="right" width="38%" />
+<img src="./metrics.isocalendar.svg" align="right" width="25%" />
 
 - 🔭 I’m currently developing the helpful robots at <a href="https://www.sunday.ai/" target="_blank" rel="noopener noreferrer">Sunday</a>,
 - 🎓 and I studied Robotics at <a href="https://www.mccormick.northwestern.edu/robotics/" target="_blank" rel="noopener noreferrer">Northwestern University</a>.
