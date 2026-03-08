@@ -1,19 +1,31 @@
 name: Metrics
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Half-year isometric calendar
+        uses: lowlighter/metrics@latest
         with:
-          filename: github-metrics.svg
+          filename: metrics.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: wengmister
-          template: classic
-          base: header, activity, repositories, metadata
-          config_timezone: America/Los_Angeles
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      - name: Stargazers graph
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
